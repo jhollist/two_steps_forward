@@ -1,0 +1,25 @@
+---
+title: "Two steps forward, one step back:"
+subtitle: "A story of a reluctant open data science transformation in lakes research"
+author: "Jeff Hollister"
+date: "2019-07-18"
+output: powerpoint_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Alternative Titles
+
+
+## The story
+
+
+## The cast
+
+
+## Two Steps Forward: Microcystin and chlorophyll *a*
+
+
+## One Step Back: F1000 Research Post-publication Review

@@ -1,6 +1,6 @@
 # Two steps forward, one step back
 
-title: Two steps forward, one step back: A reluctant open science transformation in lakes research
+title: Two steps forward, one step back: A reluctant open data science transformation in lakes research
 
 author: Jeff Hollister, US EPA, Office of Research and Development, Atlantic Ecology Division (soon to be Atlantic Coastal Environmental Sciences Division)
 

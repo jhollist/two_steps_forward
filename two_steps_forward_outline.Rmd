@@ -5,36 +5,25 @@ author: "Jeff Hollister"
 date: "2019-07-18"
 output:  
   powerpoint_presentation:
-    reference_doc: ord_science_rmd_template.pptx
+    reference_doc: two_steps_forward_template.pptx
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-
-## The story
-
-- We work on lakes, specifically cyanobacteria
-- We use computational approaches and open data science
-- We use open data science tools 
-- We pull our institution along with us, in spite of itself
-
 ## The cast
-
-### Computational Ecology Group
-- 3 FTE
-  - Myself
-  - Betty Kreakie
-  - Bryan Milstead
-- 1 Post-doc
-  - Stephen Shivers
-- 1 Research technician
-  - Sophie Fournier
-- Alum
-  - Farnaz Nojavan (now a Data Scientist at FM Global) 
-
-### Administrative/Legal/IM
-
+:::::::::::::: {.columns}
+::: {.column}
+#### Lakes and Computational Ecology
+- Myself
+- Betty Kreakie
+- Bryan Milstead
+- Stephen Shivers
+- Sophie Fournier
+- Farnaz Nojavan (Alumnus: now a Data Scientist at FM Global) 
+:::
+::: {.column}
+#### Administrative/Legal/IM
 - Ann Vega
 - Valerie Brandon
 - Michelle Ibarra
@@ -43,9 +32,20 @@ knitr::opts_chunk$set(echo = FALSE)
 - Geoff Cooper
 - Ethan McMahon
 - Andrew Yuen
+:::
+::::::::::::::
+
+## The story
+
+- Lakes and cyanobacteria
+- Computational approaches
+- Open data science tools 
+
+![funct](figure/cyano_model_function.jpg)
 
 ## Two steps forward: R
 
+- In use for a long time
 - Growth in users
 - Installs originally *ad hoc*
 

@@ -44,27 +44,41 @@ knitr::opts_chunk$set(echo = FALSE)
 ![funct](figure/cyano_model_function.jpg)
 
 ## Two steps forward: R
-
+:::::::::::::: {.columns}
+::: {.column}
 - In use for a long time
 - Growth in users
+  - ORD, Regions, Client Offices
 - Installs originally *ad hoc*
-
+:::
+::: {.column}
+![r](figure/Rlogo.png)
+:::
+::::::::::::::
 ## One step back: R
 
-- People complained that R was bad because it didn't work
-- Installs in a tightly controlled Federal IT environment
+- Tightly controlled and changing IT environment
+- Install approvals onerous and inconsistent
+- When installed, often non-functional
+- Much angst
+
+
+![angst](figure/angry_oswalt_giphy.gif)
 
 ## Progress: R
 
-- We developed a standardized installation approach 
-- Still have problems...
+- Standardized installation
+- R, RStudio, Rtools pre-approved
+- Requests via email
+- Still occasional problems...
+
 
 ## Two steps forward: GitHub
 
-- In ~2010, GitHub made available to USEPA
+- GitHub for USEPA ~2013
 - 167 repositories
 - 623 members in the USEPA Org
-- 177 members who have committed to a reposiorty
+- 177 members who have committed
 
 ## One step back: GitHub 
 

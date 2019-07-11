@@ -1,6 +1,6 @@
 ---
 title: "Two steps forward, one step back:"
-subtitle: "A story of a reluctant open data science transformation"
+subtitle: "A reluctant open data science transformation in lakes research and beyond"
 author: "Jeff Hollister"
 date: "2019-07-18"
 output:  
@@ -11,11 +11,24 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-## The cast
+## Who am I?
+::::::::::::::{.columns}
+:::{.column}
+- Landscape ecologist/GIS 
+- Fake limnologist
+- Fake R guy
+- US EPA Research Ecologist since ~2006
+- Worked on: Forests, wetlands, gopher tortoise, estuaries, lakes, cyanobacteria, ...
+:::
+:::{.column}
+![me](figure/jeff_gracie_bottle.jpg)
+:::
+::::::::::::::
+
+## The rest of the cast
 :::::::::::::: {.columns}
 ::: {.column}
 #### Lakes and Computational Ecology
-- Myself
 - Betty Kreakie
 - Bryan Milstead
 - Stephen Shivers
@@ -59,7 +72,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - Tightly controlled and changing IT environment
 - Install approvals onerous and inconsistent
-- When installed, often non-functional
+- Often only partly-functional
 - Much angst
 
 
@@ -68,11 +81,17 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Progress: R
 
 - Standardized installation
-- R, RStudio, Rtools pre-approved
+- Pre-approved
 - Requests via email
 - Still occasional problems...
-
-
+:::::::::::::: {.columns}
+::: {.column}
+![R](figure/Rlogo.png)
+:::
+:::{.column}
+![Rstudio](figure/RStudio-Logo-Blue-Gray.jpg)
+:::
+::::::::::::::
 ## Two steps forward: GitHub
 
 - GitHub for USEPA ~2013
@@ -80,16 +99,19 @@ knitr::opts_chunk$set(echo = FALSE)
 - 623 members in the USEPA Org
 - 177 members who have committed
 
+![gh](figure/octocat.png)
+
 ## One step back: GitHub 
 
-- !Collaboration
-- Pricing problem with GitHub Organization 
-  - Grandfathered Org: pay for private repositories
-  - We are are out 
+- No collaboration for you
+- Priced out?
+- No Admin rights
+
+![no soup](figure/seinfeld_no_soup.gif)
 
 ## Progress: GitHub
 
-- Change to guidance, we can now use a collaboration platform to collaborate!
+- Can now use a collaboration platform to collaborate!
 - Pricing issue still a work in progress
   - Discussions about using multiple Orgs
   - Enterprise GitHub
@@ -97,9 +119,32 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Two steps forward: Pre-prints and post-publication review
 
-- Microcystin and Chlorophyll *a*
-- Modelling Trophic State
+- [Hollister et al. (2016). Modelling lake trophic state: a random forest approach. Ecosphere](http://onlinelibrary.wiley.com/doi/10.1002/ecs2.1321/full)
+    - Uses NLA 2007
+    - Random forests to predict chlorophyll *a* based trophic state
+    - After clearance, before peer-review published as a [PeerJ Preprint](http://dx.doi.org/10.7287/peerj.preprints.1319v2)
 
+![prob map](figure/hollister_rf_trophicstate.jpg)    
+
+## Two steps forward: Pre-prints and post-publication review
+::::::::::::::{.columns}
+:::{.column}
+- [Hollister and Kreakie. (2016). Associations between Chlorophyll a and various Microcystin-LR Health Advisory Concentrations. F1000Research](https://dx.doi.org/10.12688/f1000research.7955.2)
+    - Uses NLA 2007
+    - Empirical method to answer, "What is a bloom?"
+    - Published at F1000Research immediately after clearance
+:::
+:::{.column}
+![t1](figure/tweet1.jpg)
+
+![t2](figure/tweet2.jpg)
+
+![t5](figure/tweet5.jpg)
+
+![t6](figure/tweet6.jpg)
+
+:::
+::::::::::::::
 ## One step back: Pre-prints and post-publication review
 
 - General brain explosions...

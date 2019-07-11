@@ -164,11 +164,23 @@ knitr::opts_chunk$set(echo = FALSE)
 - Very, very close to first ATO'd, official public EPA shiny app on shiny.epa.gov
 - Making progress on other fronts for Shiny (e.g. EPA AWS Platform)
 
+## Two Steps Forward: Bringing it all together
+
+- Current project: Temporal and spatial dynamics of cyanobacteria in Rhode Island ponds
+- Combining much of what we have done to date
+- Several collaborators
+- Data on GitHub
+- Code in R
+
+## One Step Back: Bringing it all together
+
+- So far, so good!
+
+## Future challenges
+
+- FLAMe and DIY buoys
 ## Unorganized parting thoughts
 
 - This is a documentary, not a how-to
 - Much of this progress required a bit of subversion (doing things we weren't supposed to do)
 
-
-
->>>>>>> 095d2ee24a620dfb7e37fd2cd51f931cb4a732c9

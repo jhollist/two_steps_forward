@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - Worked on: Forests, wetlands, gopher tortoise, estuaries, lakes, cyanobacteria, ...
 :::
 :::{.column}
-![me](figure/jeff_gracie_bottle.jpg)
+![](figure/jeff_gracie_bottle.jpg)
 :::
 ::::::::::::::
 
@@ -54,7 +54,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - Computational approaches
 - Open data science tools 
 
-![funct](figure/cyano_model_function.jpg)
+![](figure/cyano_model_function.jpg)
 
 ## Two steps forward: R
 :::::::::::::: {.columns}
@@ -65,7 +65,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - Installs originally *ad hoc*
 :::
 ::: {.column}
-![r](figure/Rlogo.png)
+![](figure/Rlogo.png)
 :::
 ::::::::::::::
 ## One step back: R
@@ -75,8 +75,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - Often only partly-functional
 - Much angst
 
-
-![angst](figure/angry_oswalt_giphy.gif)
+![](figure/angry_oswalt_giphy.gif)
 
 ## Progress: R
 
@@ -84,14 +83,16 @@ knitr::opts_chunk$set(echo = FALSE)
 - Pre-approved
 - Requests via email
 - Still occasional problems...
+
 :::::::::::::: {.columns}
 ::: {.column}
-![R](figure/Rlogo.png)
+![](figure/Rlogo.png)
 :::
 :::{.column}
-![Rstudio](figure/RStudio-Logo-Blue-Gray.jpg)
+![](figure/RStudio-Logo-Blue-Gray.jpg)
 :::
 ::::::::::::::
+
 ## Two steps forward: GitHub
 
 - GitHub for USEPA ~2013
@@ -99,7 +100,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - 623 members in the USEPA Org
 - 177 members who have committed
 
-![gh](figure/octocat.png)
+![](figure/octocat.png)
 
 ## One step back: GitHub 
 
@@ -107,7 +108,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - Priced out?
 - No Admin rights
 
-![no soup](figure/seinfeld_no_soup.gif)
+![](figure/seinfeld_no_soup.gif)
 
 ## Progress: GitHub
 
@@ -124,106 +125,157 @@ knitr::opts_chunk$set(echo = FALSE)
     - Random forests to predict chlorophyll *a* based trophic state
     - After clearance, before peer-review published as a [PeerJ Preprint](http://dx.doi.org/10.7287/peerj.preprints.1319v2)
 
-![prob map](figure/hollister_rf_trophicstate.jpg)    
+![](figure/hollister_rf_trophicstate.jpg)    
 
 ## Two steps forward: Pre-prints and post-publication review
-::::::::::::::{.columns}
-:::{.column}
+
 - [Hollister and Kreakie. (2016). Associations between Chlorophyll a and various Microcystin-LR Health Advisory Concentrations. F1000Research](https://dx.doi.org/10.12688/f1000research.7955.2)
     - Uses NLA 2007
     - Empirical method to answer, "What is a bloom?"
     - Published at F1000Research immediately after clearance
-:::
-:::{.column}
-![t1](figure/tweet1.jpg)
 
-![t2](figure/tweet2.jpg)
+![](figure/tweet1.jpg)
 
-![t5](figure/tweet5.jpg)
+![](figure/tweet2.jpg)
 
-![t6](figure/tweet6.jpg)
+![](figure/tweet5.jpg)
 
-:::
-::::::::::::::
+![](figure/tweet6.jpg)
+
 ## One step back: Pre-prints and post-publication review
 
-- General brain explosions...
+- Why would you do such a thing?
 - Many emails
-- Much angst
+- And again, much angst
+
+![](figure/homer_why_would_you.gif)
 
 ## Progress: Pre-prints and post-publication review
 
-- Separate briefing
-- An interim policy resulted to allow our use of journals that use post-publication review
+- Separate briefing lab senior managers on open science
+- Pre-prints and post-publication tacitly allowed
+- An interim policy 
 
 ## Two steps forward: Code review
 
-- `lakemorpho`
-- `elevatr`
+::::::::::::::{.columns}
+:::{.column}
+- [`lakemorpho`: Lake morphometry metrics in R](https://cran.r-project.org/package=lakemorpho)
+- `sp`, `rgdal`, `rgeos`, and `raster`
+- `sf` support to be added
+- [National Lake Morphometry](https://edg.epa.gov/metadata/catalog/search/resource/details.page?uuid=%7B495CBAED-9BB9-49B4-80A7-1C91DE5FCA95%7D)
+- [NHD Plus](https://s3.amazonaws.com/nhdplus/NHDPlusV21/Documentation/NHDPlusV2_User_Guide.pdf#page=52)
+- [Hollister and Milstead (2010)](http://dx.doi.org/10.1080/07438141.2010.504321)
+- [Hollister *et. al.* (2011)](http://dx.doi.org/10.1371/journal.pone.0025764)
+- [Hollister and Stachelek (2017)](https://f1000research.com/articles/6-1718/v1)
+:::
+:::{.column}
+![](figure/lakemorpho_demo.gif)
+:::
+::::::::::::::
+
+## Two steps forward: Code review
+::::::::::::::{.columns}
+:::{.column}
+- [`elevatr`:Access elevation data in R](https://cran.r-project.org/package=elevatr)
+- Access elevation data in R
+  - ~~Mapzen~~
+      - closed!
+  - AWS
+  - USGS
+- Built off of `sp`, `rgdal`, `rgeos`, and `raster` suite
+- `sf` support to be added
+- Development version has support for SRTM and `sf` objects
+:::
+:::{.column}
+![](figure/elevatr_demo.gif)
+:::
 
 ## One step back: Code review
 
-- First attempt failed (see GitHub One step back)
-- Lack of internal review mechanism
-- Did review anyway, but no consistent mechanism
+- First attempt failed (see One step back: GitHub)
+- Lack of internal review mechanism for scientific software
+- But got reviewed anyway
+
+![](figure/fail_then_win.gif)
 
 ## Progress: Code review
 
 - New GitHub collaborator policy
 - Draft Scientific Software Clearance policy
-- With ORD Senior Managers
+- With EPA Office of Research and Development Senior Managers
 
 ## Two steps forward: Licensing
 
-- Creative Commons Zero Approved in 2015
-- Federal Source Code Policy promised guidance as well
+- Creative Commons Zero (CC0) Approved in 2015
+- Federal Source Code Policy promised guidance
+
+![](figure/cc-zero.png)
 
 ## One step back: Licensing
 
-- But...  CC0 isn't OSI approved
+- Not quite there...
+- CC0 isn't OSI approved
 - Guidance never came
 - Prevented use of Journal of Open Source Software 
 
+![](figure/spongebob_not_quite.gif)
+
 ## Progress:  Licensing
 
-- As of ... we have approval to use MIT, GPL, Apache
+- As of early 2019, approval for MIT, GPL v3, LGPL-2.1, and Apache 2.0.
 - Other licenses are under review
 
 ## Two steps forward: Shiny
+::::::::::::::{.columns}
+:::{.column}
+- Everyone wants Shiny!
+- Various internal servers and apps over the years
+- ~20 applications on central server, many others elsewhere
+- EPA building skills and demand for Shiny applications
+- Have enterprise server
+- Examples on cloud.gov
+:::
+:::{.column}
+![](figure/shiny.png)
 
-- Broad demand for Shiny applications
-- Many Shiny developers across the Agency
-- Got
-
+[![](figure/shiny_screen.jpg)](https://simpleepashiny.app.cloud.gov)
+:::
+::::::::::::::
 ## One step back: Shiny
 
-- Multiple steps back but at different time and for different reasons
-- Purchase of Enterprise Shiny server took forever
-- Set up of server took forever
-- Process to add and troubleshoot apps took forever (still a WIP)
-- Just internal to EPA
-- cloud.gov not a traditional server set up
+- Made it through many "shining" doors, but never sure what is on the other side
+- Enterprise Shiny Server progress measured in years
+- Many technical hurdles with cloud.gov (i.e. don't be first)
+
+![](figure/shining_door.gif)
 
 ## Progress: Shiny
 
-- Very, very close to first ATO'd, official public EPA shiny app on shiny.epa.gov
+- Very, very close to first apps on shiny.epa.gov
 - Making progress on other fronts for Shiny (e.g. EPA AWS Platform)
 
 ## Two Steps Forward: Bringing it all together
 
 - Current project: Temporal and spatial dynamics of cyanobacteria in Rhode Island ponds
-- Combining much of what we have done to date
-- Several collaborators
-- Data on GitHub
-- Code in R
+- Twice weekly sampling
+- Three ponds in RI
+- 7 stations per pond
+- Chlorophyll, phycocyanin, nutrients, physical profiles, zoo- and phytoplankton
+- Uses much of the open data science toolset
+
+add in photos and figures
 
 ## One Step Back: Bringing it all together
 
 - So far, so good!
 
+![](figure/homer_good.gif)
+
 ## Future challenges
 
 - FLAMe and DIY buoys
+
 ## Unorganized parting thoughts
 
 - This is a documentary, not a how-to

@@ -269,15 +269,18 @@ knitr::opts_chunk$set(echo = FALSE)
 - Uses much of the open data science toolset
 :::
 :::{.column}
-![](figure/jeff_enviro_bio.jpg)
-
-[](figure/stephen_sampling.jpg)
-
-[](figure/chlorophyll_three_ponds.jpg)
-
-[](figure/phyco_three_ponds.jpg)
 :::
 ::::::::::::::
+
+## pics
+![](figure/jeff_enviro_bio.jpg)
+
+![](figure/stephen_sampling.jpg)
+
+![](figure/chlorophyll_three_ponds.jpg)
+
+![](figure/phyco_three_ponds.jpg)
+
 
 ## One Step Back: Bringing it all together
 

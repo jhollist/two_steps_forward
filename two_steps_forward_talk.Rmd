@@ -175,6 +175,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ::::::::::::::
 
 ## Two steps forward: Code review
+
 ::::::::::::::{.columns}
 :::{.column}
 - [`elevatr`:Access elevation data in R](https://cran.r-project.org/package=elevatr)
@@ -190,6 +191,7 @@ knitr::opts_chunk$set(echo = FALSE)
 :::{.column}
 ![](figure/elevatr_demo.gif)
 :::
+::::::::::::::
 
 ## One step back: Code review
 
@@ -252,19 +254,30 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Progress: Shiny
 
-- Very, very close to first apps on shiny.epa.gov
+- Tantalizingly close to first apps on shiny.epa.gov
 - Making progress on other fronts for Shiny (e.g. EPA AWS Platform)
 
 ## Two Steps Forward: Bringing it all together
 
+::::::::::::::{.columns}
+:::{.column}
 - Current project: Temporal and spatial dynamics of cyanobacteria in Rhode Island ponds
 - Twice weekly sampling
 - Three ponds in RI
 - 7 stations per pond
 - Chlorophyll, phycocyanin, nutrients, physical profiles, zoo- and phytoplankton
 - Uses much of the open data science toolset
+:::
+:::{.column}
+![](figure/jeff_enviro_bio.jpg)
 
-add in photos and figures
+[](figure/stephen_sampling.jpg)
+
+[](figure/chlorophyll_three_ponds.jpg)
+
+[](figure/phyco_three_ponds.jpg)
+:::
+::::::::::::::
 
 ## One Step Back: Bringing it all together
 
@@ -272,12 +285,12 @@ add in photos and figures
 
 ![](figure/homer_good.gif)
 
-## Future challenges
-
-- FLAMe and DIY buoys
-
 ## Unorganized parting thoughts
 
+- Future challenges
+    - FLAMe and DIY buoys
+    - Data collection from buoys anticipated as an issue
 - This is a documentary, not a how-to
-- Much of this progress required a bit of subversion (doing things we weren't supposed to do)
+- Much of this progress required a bit of subversion
 
+![](figure/yawgoo.jpg)
